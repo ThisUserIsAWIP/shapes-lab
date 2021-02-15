@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="shapeContainer" width="600" height="600" style="border:3px solid #000000">
+
+        </div>
+        <div class="left">
+            <div id="inputContainer" class="col-3">
+                <div class="input-group mb-3" id="sqDiv">
+                    <input type="text" class="form-control" placeholder="Side Length" aria-label="Square side length"
+                        aria-describedby="button-addon2" id="sqInput">
+                    <button class="btn btn-outline-secondary" type="button" id="sqBtn">New Square</button>
+                </div>
+                <div class="input-group mb-3" id="rectDiv">
+                    <input type="text" class="form-control" placeholder="Height" aria-label="Rectangle Height"
+                        aria-describedby="button-addon2" id="rectHInput">
+                    <input type="text" class="form-control" placeholder="Width" aria-label="Rectangle Width"
+                        aria-describedby="button-addon2" id="rectWInput">
+                    <button class="btn btn-outline-secondary" type="button" id="rectBtn">New Rectangle</button>
+                </div>
+                <div class="input-group mb-3" id="circleDiv">
+                    <input type="text" class="form-control" placeholder="Radius" aria-label="Recipient username"
+                        aria-describedby="button-addon2" id="circleInput">
+                    <button class="btn btn-outline-secondary" type="button" id="circleBtn">New Circle</button>
+                </div>
+                <div class="input-group mb-3" id="triDiv">
+                    <input type="text" class="form-control" placeholder="Height" aria-label="Recipient username"
+                        aria-describedby="button-addon2" id="triInput">
+                    <button class="btn btn-outline-secondary" type="button" id="triBtn">New <small>Isosceles</small>
+                        Triangle</button>
+                </div>
+            </div>
+            <div id="infoContainer">
+                <label for="shapeName">Shape Name</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Name" id="shapeName">
+                <br>
+                <label for="shapeWidth">Shape Width</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Width" id="shapeWidth">
+                <br>
+                <label for="shapeHeight">Shape Height</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Height" id="shapeHeight">
+                <br>
+                <label for="shapeRadi">Shape Radius</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Radius" id="shapeRadi">
+                <br>
+                <label for="shapeArea">Shape Area</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Area" id="shapeArea">
+                <br>
+                <label for="shapePerimeter">Shape Perimeter</label>
+                <br>
+                <input type="text" readonly placeholder="Shape Perimeter" id="shapePerimeter">
+            </div>
+            <br>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

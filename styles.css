@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    margin-top: 5px;
+}
+#inputContainer {
+    height: 200px;
+    width: 400px;
+    background-color: crimson;
+}
+#shapeContainer {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex: 3;
+    margin-right: 5px;
+}
+#infoContainer {
+    height: 400px;
+    width: 400px;
+    background-color: purple;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
